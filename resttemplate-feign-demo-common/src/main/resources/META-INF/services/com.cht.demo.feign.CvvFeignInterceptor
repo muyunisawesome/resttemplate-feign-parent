@@ -1,0 +1,4 @@
+com.cht.demo.feign.interceptor.FeignT3SentinelInterceptor
+com.cht.demo.feign.interceptor.FeignCircuitBreakerInterceptor
+com.cht.demo.feign.interceptor.FeignBulkheadInterceptor
+com.cht.demo.feign.interceptor.TaxiH5FeignInterceptor

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.cht</groupId>
+    <artifactId>resttemplate-feign-parent</artifactId>
+    <version>1.0.0-RELEASE</version>
+    <packaging>pom</packaging>
+    <name>Spring cloud RestTemplate Feign Parent</name>
+    <description>The Feign for Spring cloud RestTemplate to simply http invocation</description>
+    <parent>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-build</artifactId>
+        <version>2.1.2.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <developers>
+        <developer>
+            <name>cht</name>
+            <email>muyunisawesome@126.com</email>
+        </developer>
+        <developer>
+            <name>ccq</name>
+            <email>ccq1120@gmail.com</email>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>spring-cloud-resttemplate-feign</module>
+        <module>resttemplate-feign-demo-comsumer</module>
+        <module>resttemplate-feign-demo-provider</module>
+        <module>resttemplate-feign-demo-common</module>
+    </modules>
+
+</project>

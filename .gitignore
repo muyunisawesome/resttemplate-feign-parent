@@ -1,0 +1,4 @@
+# Project exclude paths
+/resttemplate-feign-demo-common/target/
+/resttemplate-feign-demo-comsumer/target/
+/resttemplate-feign-demo-provider/target/
