@@ -25,6 +25,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spring-cloud-resttemplate-feign" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.1.4.RELEASE" level="project" />
@@ -60,9 +61,7 @@
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:2.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.1.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:2.1.2.RELEASE" level="project" />
-    <orderEntry type="module" module-name="spring-cloud-resttemplate-feign" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
-    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.48.sec10" level="project" />
+    <orderEntry type="library" name="Maven: com.cht:spring-cloud-resttemplate-feign:1.0.6-RELEASE" level="project" />
     <orderEntry type="module" module-name="resttemplate-feign-demo-common" />
   </component>
 </module>
