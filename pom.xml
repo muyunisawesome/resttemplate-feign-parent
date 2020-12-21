@@ -27,6 +27,19 @@
         </developer>
     </developers>
 
+
+    <scm>
+        <url>https://github.com/muyunisawesome/resttemplate-feign-parent</url>
+        <connection>scm:git:git://github.com/muyunisawesome/resttemplate-feign-parent.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/muyunisawesome/resttemplate-feign-parent.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <spring-cloud-commons.version>2.1.0.RELEASE</spring-cloud-commons.version>
+    </properties>
+
     <modules>
         <module>spring-cloud-resttemplate-feign</module>
         <module>resttemplate-feign-demo-comsumer</module>

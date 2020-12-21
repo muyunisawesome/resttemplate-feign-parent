@@ -31,15 +31,35 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.cht</groupId>
-            <artifactId>spring-cloud-resttemplate-feign</artifactId>
-            <version>1.0.6-RELEASE</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.cht</groupId>
             <artifactId>resttemplate-feign-demo-common</artifactId>
             <version>1.0.0-RELEASE</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
