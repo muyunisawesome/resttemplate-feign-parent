@@ -8,7 +8,6 @@ import com.cht.rst.feign.inner.logger.Logger;
 import com.cht.rst.feign.inner.logging.LogFactory;
 import com.cht.rst.feign.inner.logging.Log;
 
-import lombok.Getter;
 import org.springframework.http.HttpMethod;
 
 import java.util.Map;
@@ -19,8 +18,12 @@ public class MyFeignLoggerFactory implements FeignLoggerFactory {
 
     private Logger.Level loggerLever;
 
-    @Getter
     private MyChtFeignLogger logger;
+
+    public MyChtFeignLogger getLogger() {
+        return logger;
+    }
+
 
     public MyFeignLoggerFactory(Logger.Level loggerLever) {
         this.loggerLever = loggerLever;
